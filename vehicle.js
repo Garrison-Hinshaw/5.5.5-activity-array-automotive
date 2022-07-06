@@ -57,8 +57,7 @@ class Vehicle {
 
     drive() {
         accelerate();
-    }
-    brake() {
+    brake(); {
         decelerate();
     }
 
@@ -71,7 +70,7 @@ class Vehicle {
     {
       
     }
-
+    }
     typeOfVehicle(wheels) {
         if (this.numberOfWheels == 8 && 8 == wheels) {
             console.log(this.model + " " + this.make + " is a Truck");
